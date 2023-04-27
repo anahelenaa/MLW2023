@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+     <fieldset>
+     <legend>Dados Pessoais</legend>
+     <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+     </div>
+     <div>
+        <label for="end">Endereço:</label>
+        <input type="text" name="end" id="end">
+     </div>
+     <div>
+        <label for="cid">Cidade:</label>
+        <input type="text" name="cid" id="cid">
+     </div>
+     <div>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+            <option value="1">Acre</option>
+            <option value="2">Alagoas</option>
+            <option value="3">Amapa</option>
+            <option value="4">Amazonas</option>
+            <option value="5">Bahia</option>
+            <option value="6">Ceará</option>
+            <option value="7">Espírito Santo</option>
+            <option value="8">Goiás</option>
+            <option value="9">Maranhão</option>
+            <option value="10">Mato Grosso</option>
+            <option value="11">Mato Grosso do Sul</option>
+            <option value="12">Minas Geras</option>
+            <option value="13">Pará</option>
+            <option value="14">Paraíba</option>
+            <option value="15">Paraná</option>
+            <option value="16">Pernanbuco</option>
+            <option value="17">Piauí</option>
+            <option value="18">Rio de Janeiro</option>
+            <option value="19">Rio Grande do Sul</option>
+            <option value="20">Rio Grande do Norte</option>
+            <option value="21">Rondonia</option>
+            <option value="22">Roraima</option>
+            <option value="23">Santa Catarina</option>
+            <option value="24" selected>São Paulo</option>
+            <option value="25">Sergipe</option>
+            <option value="26">Tocantins</option>
+            </select>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+     <div>
+        <label>Natureza do cargo:</label><br>
+        <input type="radio" name="cargo" id="cargo">
+        <label for="radio">Gerência</label>
+        <input type="radio" name="cargo" id="cargo">
+        <label for="">Financeiro</label>
+        <input type="radio" name="cargo" id="cargo">
+        <label for="">Reecepção</label>
+        <input type="radio" name="cargo" id="cargo">
+        <label for="">Administrativo</label>
+        <input type="radio" name="cargo" id="cargo">
+        <label for="">Jurídico</label>
+     </div>
+     <br>
+     <div>
+        <label for="">Área de Interesse</label><br>
+        <input type="checkbox" name="comp" id="comp">
+        <label for="comp">Computação</label>
+        <input type="checkbox" name="bio" id="bio">
+        <label for="area">Biologia</label>
+        <input type="checkbox" name="ma" id="ma">
+        <label for="ma">Meio Ambiente</label>
+        <input type="checkbox" name="eng" id="eng">
+        <label for="eng">Engenharia</label>
+        <input type="checkbox" name="hist" id="hist">
+        <label for="hist">História</label>
+    </div>
+    <div>
+        <label for="cur">Mini-cúrriculo:</label>
+        <textarea name="cur" id="cur" cols="50" rows="10"></textarea>
+    </div>
+    </fieldset>
+     <br>
+     <button type="submit" value="Enviar">Enviar</button>
+     <button type="reset" value="Limpar">Limpar</button>
+    </form>
+    
+</body>
+</html>
