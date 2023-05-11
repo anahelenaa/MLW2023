@@ -1,0 +1,37 @@
+div p {
+    font-size: 26px;
+}
+a:link {
+    color: rgb(33, 165, 33);
+    background-color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color:blue;
+    background-color: rgb(33, 165, 33);
+    text-decoration: none;}
+a:hover {
+    color:rgb(255, 174, 0);
+    background-color: rgb(252, 248, 200);
+    text-decoration: none;
+    border: dashed 3px yellowgreen;
+    font-size: 130%;
+}
+a:active {
+    color:rgb(241, 241, 253);}
+
+.pseudo {
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+    padding-left: 30px;
+ }
+.pseudo:hover {
+    background-color: darkblue;
+    height: 50px;
+    width: 150px;
+    color: antiquewhite;
+    transition: 1s;
+    border-radius: 5px;
+    padding-left: 80px;
+}

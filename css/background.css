@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background-image: url(../img/download.jpg);
+    background-attachment: fixed;}
+
+.bgcolor {
+    background-color: rgb(31, 60, 114);
+    height: 50px;
+    width: 70%;
+    color: white;
+    font-size: 26px;}
+
+h1 {font-size: 50px;}
+
+.bgimage {
+    background-image: url(../img/o-que-e-paisagem.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bgimage p {
+    font-size: 26px;
+    color: white;
+    background-color: rgb(31, 60, 114);
+    height: 50px;
+    width: 70%;
+} 

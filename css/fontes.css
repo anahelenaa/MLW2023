@@ -1,0 +1,23 @@
+body div p {
+    font-size: 26px;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.sansserif {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mono {
+    font-family: monospace;
+}
+.fs {
+    font-style: italic;
+}
+.fw {
+    font-weight: 700;
+    font-variant: small-caps;
+}
+.fsi {
+    font-size: 30px;
+}
